@@ -1,10 +1,153 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Green Heritage of Dr. DY Patil ACS College</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Linking external CSS file -->
+  <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to right, #d0e8d0, #ffffff); /* Soft gradient background */
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      line-height: 1.6;
+      padding: 30px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+      @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    h1 {
+      color: #800000; /* Maroon */
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 30px;
+      animation: slideInFromLeft 1s ease-out;
+    }
+
+       @keyframes slideInFromLeft {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    h4 {
+      font-size: 18px;
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #228B22; /* Forest Green */
+      font-size: 24px;
+      margin-top: 40px;
+    }
+
+    h3 {
+      color: #006400; /* Dark Green */
+      font-size: 22px;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      text-align: justify;
+      animation: fadeInText 1.5s ease-in-out;
+    }
+
+        @keyframes fadeInText {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 20px;
+      font-size: 16px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+       a {
+      display: inline-block;
+      background-color: #0066cc;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #004d99;
+    }
+
+       .centered-img {
+      display: block;
+      margin: 30px auto;
+      border: 3px solid #333;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .centered-img:hover {
+      transform: scale(1.1); /* Zoom effect */
+    }
+
+       hr {
+      border: 2px solid #333;
+      margin: 30px 0;
+    }
+
+       .content-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+       .location {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+       .button {
+      display: inline-block;
+      background-color: #32cd32;
+      color: white;
+      padding: 12px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #228b22;
+    }
+
+  </style>
 </head>
 
 <body>
@@ -14,8 +157,9 @@
 
     <hr>
 
-    <img src="https://cdn.shopify.com/s/files/1/0042/2962/files/mangifera-indica-mango.jpg?v=1717058408" 
-         alt="Tree Image" width="500" height="500" class="centered-img"><br>
+       <img src="https://cdn.shopify.com/s/files/1/0042/2962/files/mangifera-indica-mango.jpg?v=1717058408" 
+         alt="Tree Image" width="300" height="300" class="centered-img"><br>
+         alt="Tree Image" width="300" height="300" class="centered-img"><br>
 
     <h2>Tree Profile</h2>
     <h3>Name of Tree</h3>
@@ -26,20 +170,21 @@
     </ul>
 
     <p>Mango trees are deep-rooted, symmetrical evergreens that attain heights of 90 feet and widths of 80 feet.
-      Mango trees have simple alternate lanceolate leaves that are 12 to 16 inches in length and yellow-green, purple,
-      or copper in color when young. Mature leaves are leathery, glossy, and deep green in color. New leaves arise in
-      terminal growth flushes that occur several times a year.</p><p> Mature terminal branches bear pyramidal flower panicles
-      that have several hundred white flowers that are about a 1/4 inch wide when open. Most of the flowers function as
-      males by providing pollen, but some are bisexual and set fruit.
-      Pollination is by flies, wasps, and bees.</p>
+	Mango trees have simple alternate lanceolate leaves that are 12 to 16 inches in length and yellow-green, purple,
+	or copper in color when young. Mature leaves are leathery, glossy, and deep green in color. New leaves arise in
+	terminal growth flushes that occur several times a year.</p><p> Mature terminal branches bear pyramidal flower panicles
+	that have several hundred white flowers that are about a 1/4 inch wide when open. Most of the flowers function as
+	males by providing pollen, but some are bisexual and set fruit.
+	Pollination is by flies, wasps, and bees.</p>
     
     <img src="https://www.mdpi.com/plants/plants-12-01939/article_deploy/html/images/plants-12-01939-g002.png" 
+ 
          style="width:400px;height:350px;display:block;margin:20px auto;">
 
     <h3>Location:</h3>
     <p class="location">This mango tree is at basketball ground in our college.</p>
 
-    <a href="https://kabir663.github.io/mangored/" class="button">For More Information</a>
+       <a href="https://kabir663.github.io/mangored/" class="button">For More Information</a>
   </div>
 </body>
 </html>
